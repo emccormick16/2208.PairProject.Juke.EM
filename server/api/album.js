@@ -1,7 +1,5 @@
 const router = require("express").Router();
-const {
-  models: { Album },
-} = require("../db");
+const { Album } = require("../db");
 
 router.get("/", async (req, res, next) => {
   try {

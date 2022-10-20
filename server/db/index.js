@@ -20,11 +20,11 @@ Album.belongsTo(Artist);
 
 module.exports = {
   db,
-  models: {
-    Artist,
-    Album,
-    Song,
-  },
+
+  Artist,
+  Album,
+  Song,
+
   // Include your models in your module.exports as well!
   // The seed file expects to find them there!
 };
