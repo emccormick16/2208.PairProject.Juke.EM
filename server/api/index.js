@@ -1,5 +1,8 @@
-const router = require('express').Router()
+const app = require("..");
+// const express = require("express");
+const router = require("express").Router();
 
 // connect your API routes here!
-
-module.exports = router
+// app.use(express.json());
+router.use("/albums", require("./album"));
+module.exports = router;
